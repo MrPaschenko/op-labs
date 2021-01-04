@@ -1,6 +1,6 @@
 'use strict';
 
-const matrix = [true, 'hello', 5, 12, -200, false, false, 'word'];
+const array = [true, 'hello', 5, 12, -200, false, false, 'word'];
 
 const hash = {
   number: 0,
@@ -18,7 +18,7 @@ const hash = {
 //   }
 // }
 
-for (const value of matrix) {
+for (const value of array) {
   hash[`${typeof value}`]++;
 }
 
