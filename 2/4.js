@@ -1,14 +1,14 @@
 'use strict';
 
-const matrix = [];
+const array = [];
 
 function range(start, end) {
   const interval = end - start;
   for (let i = 0; i <= interval; i++) {
-    matrix[i] = start;
+    array[i] = start;
     start++;
   }
-  return matrix;
+  return array;
 }
 
 console.log(range(15, 30));
