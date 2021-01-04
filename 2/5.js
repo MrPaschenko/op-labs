@@ -1,6 +1,6 @@
 'use strict';
 
-const matrix = [];
+const array = [];
 
 function isEven(num) {
   return !(num % 2);
@@ -11,13 +11,13 @@ function range(start, end) {
 
   for (let i = 0; i <= interval / 2; i++) {
     if (isEven(start)) {
-      matrix[i] = start;
+      array[i] = start;
     } else {
       i--;
     }
     start++;
   }
-  return matrix;
+  return array;
 }
 
 console.log(range(15, 30));
