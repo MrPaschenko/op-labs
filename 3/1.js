@@ -1,6 +1,6 @@
 'use strict';
 
-function random(min, max = undefined) {
+function random(min, max) {
   if (max === undefined) {
     return Math.round(Math.random() * min);
   } else
