@@ -2,8 +2,10 @@
 
 function sum(...args) {
   let sum = 0;
-  for (let i = 0; i < args.length; i++) {
+  let i = 0;
+  while (i < args.length) {
     sum += args[i];
+    i++;
   }
   return sum;
 }
