@@ -1,24 +1,25 @@
 'use strict';
 
 const array = () => {
-  const arr = [1, 2, 3];
-  const a = index => arr[index];
+  const arr = [];
+  const get = index => arr[index];
+  get.push = x => arr.push(x);
+  get.pop = () => arr.pop();
+  return get;
 };
-const b = array();
-console.log(b());
 
-// const arr = array();
-//
-// arr.push('first');
-// arr.push('second');
-// arr.push('third');
-//
-// console.log(arr(0)); // Выводит: first
-// console.log(arr(1)); // Выводит: second
-// console.log(arr(2)); // Выводит: third
-//
-// console.log(arr.pop()); // Выводит: third
-// console.log(arr.pop()); // Выводит: second
-// console.log(arr.pop()); // Выводит: first
-//
-// console.log(arr.pop()); // Выводит: undefined
+const arr = array();
+
+arr.push('first');
+arr.push('second');
+arr.push('third');
+
+console.log(arr(0)); // Выводит: first
+console.log(arr(1)); // Выводит: second
+console.log(arr(2)); // Выводит: third
+
+console.log(arr.pop()); // Выводит: third
+console.log(arr.pop()); // Выводит: second
+console.log(arr.pop()); // Выводит: first
+
+console.log(arr.pop()); // Выводит: undefined
