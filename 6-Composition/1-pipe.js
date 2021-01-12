@@ -13,7 +13,7 @@ const cube = x => x ** 3;
 
 const f = pipe(inc, twice, cube);
 const x = f(5);
-console.log(x);
+console.log(x); // 1728
 
 // const f = pipe(inc, inc);
 // const x = f(7);
@@ -21,4 +21,4 @@ console.log(x);
 
 const fn = pipe(inc, 7, cube);
 
-fn();
+fn(); // error

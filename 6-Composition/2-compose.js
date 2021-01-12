@@ -18,4 +18,4 @@ const cube = x => x ** 3;
 
 const f = compose(cube, twice, inc, error);
 const x = f(5);
-console.log(x);
+console.log(x); // 1728
