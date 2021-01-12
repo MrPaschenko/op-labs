@@ -17,4 +17,4 @@ function generateKey(length, characters) {
   return string.join('');
 }
 
-console.log(generateKey(15, characters));
+console.log(generateKey(15, characters)); // random string which has length 15

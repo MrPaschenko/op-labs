@@ -21,4 +21,4 @@ function methods(iface) {
   return keys;
 }
 
-console.log(methods(someObject));
+console.log(methods(someObject)); // [ [ 'm1', 1 ], [ 'm2', 2 ], [ 'm3', 3 ] ]

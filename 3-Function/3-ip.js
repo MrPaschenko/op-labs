@@ -20,4 +20,4 @@ IP1[2] <<= 8;
 
 const sum = IP1.reduce((accumulator, value) => accumulator + value, 0);
 
-console.log(sum);
+console.log(sum); // 167772161
