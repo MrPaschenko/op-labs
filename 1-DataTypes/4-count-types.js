@@ -22,4 +22,4 @@ for (const value of array) {
   hash[`${typeof value}`]++;
 }
 
-console.log(hash);
+console.log(hash); // { number: 3, string: 2, boolean: 3 }

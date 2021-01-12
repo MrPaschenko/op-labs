@@ -8,4 +8,4 @@ function inc(num) {
 
 inc(obj);
 
-console.dir(obj);
+console.dir(obj); // { n: 10 }

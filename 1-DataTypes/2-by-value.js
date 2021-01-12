@@ -7,4 +7,4 @@ function inc(n) {
 const a = 5;
 const b = inc(a);
 
-console.dir({ a, b });
+console.dir({ a, b }); // { a: 5, b: 10}
