@@ -16,4 +16,4 @@ function ages(array) {
   return person;
 }
 
-console.log(ages(persons));
+console.log(ages(persons)); // { lenin: 54, mao: 83, gandhi: 79, hirohito: 88 }
