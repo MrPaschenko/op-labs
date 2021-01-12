@@ -4,4 +4,4 @@ function hello(name) {
   console.log(`Hi, ${name}!`);
 }
 
-hello('Dmytro');
+hello('Dmytro'); // 'Hi, Dmytro!'

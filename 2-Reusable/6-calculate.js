@@ -20,4 +20,4 @@ function calculate(max) {
   return array;
 }
 
-console.log(calculate(9));
+console.log(calculate(9)); // [0, 1, 6... 288]

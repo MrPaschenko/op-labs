@@ -20,4 +20,4 @@ function range(start, end) {
   return array;
 }
 
-console.log(range(15, 30));
+console.log(range(15, 30)); // [16, 18.. 30]

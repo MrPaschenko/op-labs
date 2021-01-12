@@ -2,4 +2,4 @@
 
 const name = 'Dmytro';
 
-console.log(name);
+console.log(name); // 'Dmytro'

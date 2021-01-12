@@ -23,4 +23,5 @@ function findPhoneByName(name) {
   }
 }
 
-console.log(findPhoneByName('Marcus Aurelius'));
+console.log(findPhoneByName('Marcus Aurelius')); // '+380445554433'
+
