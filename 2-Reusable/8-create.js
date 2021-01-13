@@ -7,5 +7,5 @@ function createUser(name, city) {
   };
 }
 
-console.dir(createUser('Marcus Aurelius', 'Roma')); // { name: 'Marcus Aurelius', city: 'Roma' }
-
+console.dir(createUser('Marcus Aurelius', 'Roma'));
+// { name: 'Marcus Aurelius', city: 'Roma' }
