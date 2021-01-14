@@ -11,14 +11,15 @@ const someObject = {
 };
 
 function methods(iface) {
-  const keys = [];
-  for (const key in iface) {
-    const fn = iface[key];
-    if (typeof(fn) === 'function') {
-      keys.push([key, fn.length]);
+  const keys = Object.keys(iface);
+  const res = [];
+  for (const key of keys) {
+    const value = iface[key];
+    if (typeof(value) === 'function') {
+      res.push([key, value.length]);
     }
   }
-  return keys;
+  return res;
 }
 
 console.log(methods(someObject)); // [ [ 'm1', 1 ], [ 'm2', 2 ], [ 'm3', 3 ] ]
