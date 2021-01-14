@@ -4,8 +4,8 @@ let IP1 = '10.0.0.1';
 
 function IPToArray(ip) {
   const tempIP = ip.split('.');
-  for (const i in tempIP) {
-    tempIP[i] = parseInt(tempIP[i]);
+  for (let value of tempIP) {
+    value = parseInt(value);
   }
   return tempIP;
 }
