@@ -7,10 +7,11 @@ const persons = {
   hirohito: { born: 1901, died: 1989 },
 };
 
-function ages(array) {
+function ages(object) {
   const person = {};
-  for (const key in array) {
-    const obj = array[key];
+  const keys = Object.keys(object);
+  for (const key of keys) {
+    const obj = object[key];
     person[key] = obj.died - obj.born;
   }
   return person;
